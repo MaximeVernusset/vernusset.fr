@@ -1,0 +1,252 @@
+﻿/**
+ * Variables
+ ***********************************************************************/
+:root {
+	--dark: #111111;
+	--light: #eeeeee;
+	--noir: #000000;
+	--gris-fonce: #262626;
+	--gris: #525252;
+	--gris-clair: #fcfcfc;
+	--blanc: #ffffff;
+	--vert: #69d149;
+}
+
+
+
+/**
+ * Tout
+ **********************************************************************/
+* {
+	font-family:  "Century Gothic", helvetica, cambria;
+	font-size: 1em;
+}
+
+body {
+	background-color: var(--dark);
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.05em; }
+small { font-size: 0.85em; }
+abbr, abbr[title] { 
+	text-decoration: none; 
+	border-bottom: none;
+}
+
+
+.invisible { display: none; }
+.progress {
+	height: 3px;
+	background-color: var(--gris-fonce);
+}
+.shadow { text-shadow: 1px 1px var(--gris-fonce); }
+
+.row .row-eq-height { 
+	display: table;
+}
+.col-eq-height {
+	float: none;
+	display: table-cell;
+	vertical-align: top;
+}
+@media only screen and (max-width: 600px) {
+	.col-eq-height {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+/**
+ * Bandeau gauche
+ ***********************************************************************/
+#bandeau {
+	padding: 0;
+	color: var(--blanc);
+	background-color: var(--gris);
+	max-height: 100%;
+}
+
+/*Liens*/
+#bandeau a {
+	color: var(--blanc);
+	background-color: var(--gris);
+}
+#bandeau a:hover, #bandeau a:focus {
+	color: var(--vert);
+	outline: none;
+	text-decoration: none;
+}
+#bandeau a:focus { color: var(--blanc); }
+
+/*Lignes horizontales*/
+#bandeau hr {
+	margin-left: 7%;
+	margin-right: 5%;
+	border-color: var(--vert); 
+}
+
+#bandeau h2 { color: var(--vert); }
+
+
+	/**
+	 * Encadré photo + nom + métier
+	 **************************************************************/
+	#photo { position: relative; }
+	#photo img { width: 100%; }
+	#nom {
+		position: absolute;
+		bottom: 0px;
+		padding: 15px;
+		padding-bottom: 10px;
+	}
+	#metier { font-size: 1.25em }
+
+	/**
+	 * Informations : contenu du bandeau
+	 **********************************************************/
+	#infos { padding: 15px; }
+	
+		/**
+		* Section contact
+		***************************************************/
+		.icone-contact {
+			width: 20px; 
+			text-align: center;
+		}
+	
+		/**
+		* Soft-skills
+		***************************************************/
+		#soft-skills section article {
+			margin-left: 11%;
+			margin-right: 9%;
+		}
+		
+			/**
+			 * Section langues
+			 ******************************************/
+			#langues .progress-bar {
+				background-color: var(--gris-clair);
+			}
+			#toeic { 
+				float: right;
+				margin-left: 10px;
+			}
+			.clear-float { clear: both; }
+		
+			/**
+			 * Section atouts
+			 ******************************************/
+			.atout td { vertical-align: top; }
+			.icone-atout-item { padding-right: 10px; }
+		
+			/**
+			 * Section intérêts
+			 ******************************************/
+			#interets h3 {
+				color: var(--gris-clair);
+				font-weight: bold;
+			}
+			.icone-interet-item { padding-right: 1px; }
+			
+			
+
+			
+/**
+ * Page
+ **********************************************************************/
+#page {
+	padding: 25px;
+	background-color: var(--gris-clair);
+	color: var(--gris-fonce);
+}
+
+#page h2 {
+	color: var(--gris-fonce);
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+#page h3 {
+	margin: 0;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+#page h4 { margin: 0; }
+
+#page hr { margin: 7px 0 6px 0; }
+
+#page .formation .description p, #page .experience .description p {
+	padding-top: 6px;
+	padding-bottom: 7px;
+	text-align: left;
+}
+
+
+/*Liens*/
+#page a {
+	color: var(--gris-fonce);
+	background-color: var(--gris-clair);
+}
+#page a:hover, #page a:focus {
+	color: var(--vert);
+	outline: none;
+	text-decoration: none;
+}
+#page a:focus { color: var(--gris); }
+
+.dates {
+	color: #8c8c8c;
+	text-align: center;
+}
+
+.etablissement { color: var(--vert); }
+
+	/**
+	 * Phrase d'intro
+	 **************************************************************/
+	#intro {
+		text-align: justify;
+		font-size: 1.1em;
+		font-style: italic;
+		color: var(--noir);
+		margin: -5px -15px -1px -15px;
+		padding: 5px 15px 1px 15px;
+		background-color: var(--vert);
+		opacity: 0.5;
+		border-radius: 10px;
+	}
+	
+	/**
+	 * Section diplômes et formations
+	 **************************************************************/
+	
+	
+	/**
+	 * Section expériences professionnelles
+	 **************************************************************/
+	
+	
+	/**
+	 * Section compétences
+	 **************************************************************/
+	.competence .categorie h3 {
+		font-size: 0.95em;
+		text-align: center;
+	}
+	.competence .description {
+		text-align: left;
+		margin-top: -2px;
+	}
+
+	
+
+/**
+ * Boutons d'export PDF
+ **********************************************************************/
+#btn-export { padding: 10px 15% 5px 15%; }
+#btn-export a { white-space: normal; }
