@@ -1,0 +1,33 @@
+h1 {
+	color: var(--orange);
+	text-shadow: black 2px -2px 1px;
+}
+
+@keyframes shadow {
+    0%   {box-shadow: var(--orange) 0px 0px 10px;}
+    /*20%   {box-shadow: var(--orange) 0px 0px 15px;}
+    40%   {box-shadow: var(--orange) 0px 0px 20px;}
+    60%   {box-shadow: var(--orange) 0px 0px 30px;}
+    80%   {box-shadow: var(--orange) 0px 0px 40px;}*/
+    100%  {box-shadow: var(--dark-orange) 0px 0px 50px;}
+}
+
+form {
+	padding: 15px;
+	background-color: var(--dark);
+	background: linear-gradient(to right bottom, var(--dark), var(--dark), var(--dark), var(--dark), var(--dark-green), var(--dark), var(--dark), var(--dark), var(--dark));
+	width: 100%;
+	max-width: 450px;
+	margin: auto;
+	animation: shadow 7s infinite alternate linear;
+	border-radius: 5px;
+	word-wrap: break-word;
+}
+
+legend {
+	color: var(--dark-orange);
+}
+
+#warning-message {
+	color: var(--red);
+}

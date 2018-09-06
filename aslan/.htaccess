@@ -1,0 +1,5 @@
+Options -Indexes
+
+php_value session.cookie_httponly on
+php_value session.use_only_cookies on
+php_value session.use_strict_mode on

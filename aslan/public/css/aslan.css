@@ -1,0 +1,33 @@
+/* This stylesheet defines the basic styles for all Aslan pages. */
+
+/**
+ * Color definitions.
+ */
+:root {
+	--dark: #111111;
+	--light: #eeeeee;
+	--orange: #ffaa00;
+	--dark-orange: #ee9900;
+	--red: #cc0000;
+	--dark-red: #990000;
+	--green: #22aa22;
+	--dark-green: #228822;
+}
+
+* {
+	font-family: Helvetica, Verdana, Arial;
+}
+
+body {
+	background-color: var(--dark);
+	color: var(--light);
+}
+
+.btn-aslan {
+	color: var(--light);
+	background-color: var(--dark-orange);
+	border: solid 1px var(--dark-orange);
+}
+.btn-aslan:hover  {
+	background-color: var(--orange);
+}
