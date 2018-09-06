@@ -1,7 +1,9 @@
+CREATE SCHEMA IF NOT EXISTS aslan;
+
 /**
  * Users of Aslan.
  */
-CREATE TABLE IF NOT EXISTS Users  (
+CREATE TABLE IF NOT EXISTS aslan.Users  (
 	email VARCHAR(64) UNIQUE NOT NULL,
 	password VARCHAR(64) NOT NULL,
 	authToken VARCHAR(64) UNIQUE DEFAULT NULL,
@@ -13,14 +15,14 @@ CREATE TABLE IF NOT EXISTS Users  (
 /**
  * List of devices handled by the system.
  */
-CREATE TABLE IF NOT EXISTS DeviceTypes (
+CREATE TABLE IF NOT EXISTS aslan.DeviceTypes (
 	name VARCHAR(16) PRIMARY KEY
 );
 
 /**
  * Registered devices owned by users.
  */
-CREATE TABLE IF NOT EXISTS Devices (
+CREATE TABLE IF NOT EXISTS aslan.Devices (
 	user VARCHAR(64) NOT NULL,
 	hostName VARCHAR(32) NOT NULL,
 	name VARCHAR(16) NOT NULL,

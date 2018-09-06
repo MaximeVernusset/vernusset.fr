@@ -38,22 +38,15 @@ body {
 .btn-accueil:hover  {
 	background-color: var(--dark-red);
 	color: var(--light);
-	border-color: var(--red);
 }
 
 .btn-accueil-cv {
 	background-color: var(--green);
 	border: solid 1px var(--dark-green);
 }
-.btn-accueil-cv:hover  {
-	background-color: var(--dark-green);
-	border-color: var(--green);
-}
+.btn-accueil-cv:hover {	background-color: var(--dark-green); }
 .btn-accueil-aslan {
 	background-color: var(--orange);
 	border: solid 1px var(--dark-orange);
 }
-.btn-accueil-aslan:hover  {
-	background-color: var(--dark-orange);
-	border-color: var(--orange);
-}
+.btn-accueil-aslan:hover { background-color: var(--dark-orange); }
