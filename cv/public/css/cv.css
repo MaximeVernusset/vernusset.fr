@@ -133,7 +133,7 @@ abbr, abbr[title] {
 			#langues .progress-bar {
 				background-color: var(--gris-clair);
 			}
-			#toeic { 
+			.niveau { 
 				float: right;
 				margin-left: 10px;
 			}
