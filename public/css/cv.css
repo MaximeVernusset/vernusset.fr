@@ -13,7 +13,6 @@
 }
 
 
-
 /**
  * Tout
  **********************************************************************/
@@ -59,8 +58,6 @@ abbr, abbr[title] {
     }
 }
 
-
-
 /**
  * Bandeau gauche
  ***********************************************************************/
@@ -71,7 +68,7 @@ abbr, abbr[title] {
 	max-height: 100%;
 }
 
-/*Liens*/
+/* Liens */
 #bandeau a {
 	color: var(--blanc);
 	background-color: var(--gris);
@@ -83,7 +80,7 @@ abbr, abbr[title] {
 }
 #bandeau a:focus { color: var(--blanc); }
 
-/*Lignes horizontales*/
+/* Lignes horizontales */
 #bandeau hr {
 	margin-left: 7%;
 	margin-right: 5%;
@@ -91,7 +88,6 @@ abbr, abbr[title] {
 }
 
 #bandeau h2 { color: var(--vert); }
-
 
 	/**
 	 * Encadré photo + nom + métier
@@ -110,7 +106,7 @@ abbr, abbr[title] {
 	 * Informations : contenu du bandeau
 	 **********************************************************/
 	#infos { padding: 15px; }
-	
+
 		/**
 		* Section contact
 		***************************************************/
@@ -118,7 +114,7 @@ abbr, abbr[title] {
 			width: 20px; 
 			text-align: center;
 		}
-	
+
 		/**
 		* Soft-skills
 		***************************************************/
@@ -126,10 +122,11 @@ abbr, abbr[title] {
 			margin-left: 11%;
 			margin-right: 9%;
 		}
-		
+
 			/**
 			 * Section langues
 			 ******************************************/
+			#langues article { padding-bottom: 1px }
 			#langues .progress-bar {
 				background-color: var(--gris-clair);
 			}
@@ -138,13 +135,13 @@ abbr, abbr[title] {
 				margin-left: 10px;
 			}
 			.clear-float { clear: both; }
-		
+
 			/**
 			 * Section atouts
 			 ******************************************/
 			.atout td { vertical-align: top; }
 			.icone-atout-item { padding-right: 10px; }
-		
+
 			/**
 			 * Section intérêts
 			 ******************************************/
@@ -153,10 +150,18 @@ abbr, abbr[title] {
 				font-weight: bold;
 			}
 			.icone-interet-item { padding-right: 1px; }
-			
-			
 
-			
+		/**
+		 * Section prétentions
+		 ******************************************/
+		 #pretentions article {
+			margin-left: 11%;
+			margin-right: 9%;
+		}
+		.pretention td { vertical-align: top; }
+		.icone-pretention-item { padding-right: 10px; }
+
+
 /**
  * Page
  **********************************************************************/
@@ -187,7 +192,7 @@ abbr, abbr[title] {
 }
 
 
-/*Liens*/
+/* Liens */
 #page a {
 	color: var(--gris-fonce);
 	background-color: var(--gris-clair);
@@ -224,13 +229,13 @@ abbr, abbr[title] {
 	/**
 	 * Section diplômes et formations
 	 **************************************************************/
-	
-	
+
+
 	/**
 	 * Section expériences professionnelles
 	 **************************************************************/
-	
-	
+
+
 	/**
 	 * Section compétences
 	 **************************************************************/
@@ -243,14 +248,16 @@ abbr, abbr[title] {
 		margin-top: -2px;
 	}
 
-	
+	/**
+	 * Section contributions github
+	 **************************************************************/
+
 
 /**
  * Boutons d'export PDF
  **********************************************************************/
 #btn-export { padding: 10px 15% 5px 15%; }
 #btn-export a { white-space: normal; }
-
 
 
 /**
