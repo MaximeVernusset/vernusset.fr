@@ -211,6 +211,8 @@ abbr, abbr[title] {
 
 .etablissement { color: var(--vert); }
 
+.id-certification { font-style: italic; }
+
 	/**
 	 * Phrase d'intro
 	 **************************************************************/
@@ -225,16 +227,15 @@ abbr, abbr[title] {
 		opacity: 0.5;
 		border-radius: 10px;
 	}
-	
-	/**
-	 * Section diplômes et formations
-	 **************************************************************/
 
 
 	/**
 	 * Section expériences professionnelles
 	 **************************************************************/
 
+	/**
+	 * Section diplômes et formations
+	 **************************************************************/
 
 	/**
 	 * Section compétences
