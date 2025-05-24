@@ -3,13 +3,15 @@
 
 	<head>
 		<title>Maxime Vernusset</title>
+		<meta property="og:title" content="Maxime Vernusset - Ingénieur Systèmes d'Information"/>
+		<meta property="og:description" content="CV de Maxime Vernusset, Ingénieur en Systèmes d'Information & Cybersécurité."/>
 		<meta name="description" content="Curriculum Vitae de Maxime Vernusset. Ingénieur en Systèmes d'Information & Cybersécurité."/>
-		<meta name="keywords" content="cv, curriculum vitae, portfolio, maxime vernusset, cybersécurité, systèmes d'information, ingénieur, logiciel, ece paris, développeur, devops, sre"/>
+		<meta name="keywords" content="cv, curriculum vitae, portfolio, maxime vernusset, cybersécurité, systèmes d'information, ingénieur, logiciel, ece paris, développeur, devops, sre, architecture, cloud"/>
 		<meta name="subject" content="Curriculum Vitae"/>
 		<meta name="author" content="Maxime Vernusset"/>
 		<meta name="language" content="fr"/>
 		<meta name="copyright" content="Maxime Vernusset"/> 
-		<meta name="robots" content="index,follow"/>
+		<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<meta charset="utf-8"/>
 		
@@ -27,33 +29,42 @@
 			<div class="row row-eq-height">
 				<div id="marge-gauche" class="col-md-1 col-sm-0 col-eq-height"></div>
 				
-				<main>
-					<div id="bandeau" class="col-md-4 col-sm-4 col-eq-height">
+				<main role="main" aria-label="Contenu principal">
+					<div id="bandeau" class="col-md-4 col-sm-4 col-eq-height" role="complementary">
 						<div id="photo">
 							<img src="public/img/photo.png" alt="photo"/>
 							<section id="nom" class="shadow">
 								<h1><b>Maxime Vernusset</b></h1>
-								<p id="metier"><strong>Ingénieur Systèmes d'Information</strong></p>
+								<p id="metier"><strong>Ingénieur Logiciel</strong></p>
 							</section>
 						</div>
 						
 						<div id="infos">
-							<section id="contacts">
-								<h2 class="invisible">Contact</h2>
+							<section id="contacts" role="region" aria-label="Informations de contact">
+								<h2 class="invisible" aria-hidden="true">Contact</h2>
 								<article id="permis" class="contact">
-									<h3 class="invisible">Permis</h3>
-									<span class="icone-contact fa fa-car"></span> Permis B
+									<h3 class="invisible" aria-hidden="true">Permis</h3>
+									<span class="icone-contact fa fa-car" aria-hidden="true"></span>
+									<span aria-label="Permis de conduire">Permis B</span>
 								</article>
 								<article id="github" class="contact">
-									<h3 class="invisible">GitHub</h3>
-									<a href="https://github.com/MaximeVernusset" target="_blank"> <span class="icone-contact fa fa-github"></span> MaximeVernusset</a>
+									<h3 class="invisible" aria-hidden="true">GitHub</h3>
+									<a href="https://github.com/MaximeVernusset" 
+									   target="_blank" 
+									   aria-label="Profil GitHub de Maxime Vernusset">
+										<span class="icone-contact fa fa-github" aria-hidden="true"></span> MaximeVernusset
+									</a>
 								</article>
 								<article id="linkedin" class="contact">
-									<h3 class="invisible">LinkedIn</h3>
-									<a href="https://www.linkedin.com/in/maximevernusset/" target="_blank"> <span class="icone-contact fa fa-linkedin"></span> Maxime Vernusset</a>
+									<h3 class="invisible" aria-hidden="true">LinkedIn</h3>
+									<a href="https://www.linkedin.com/in/maximevernusset/" 
+									   target="_blank"
+									   aria-label="Profil LinkedIn de Maxime Vernusset">
+										<span class="icone-contact fa fa-linkedin"></span> Maxime Vernusset
+									</a>
 								</article>
 								<article id="email" class="contact">
-									<h3 class="invisible">Email</h3>
+									<h3 class="invisible" aria-hidden="true">Email</h3>
 									<a href="mailto:maxime.vernusset+cv-portfolio@hotmail.fr"><span class="icone-contact fa fa-envelope"></span> maxime.vernusset+cv-portfolio@hotmail.fr</a>
 								</article>
 							</section>
@@ -64,19 +75,19 @@
 								<section id="langues">
 									<h2><span class="fa fa-flag"></span> Langues</h2>
 									<article id="francais" class="langue">
-										<h3 class="invisible">Français</h3>
+										<h3 class="invisible" aria-hidden="true">Français</h3>
 										<div>
 											Français (natif)
 										</div>
 									</article>
 									<article id="anglais" class="langue">
-										<h3 class="invisible">Anglais</h3>
+										<h3 class="invisible" aria-hidden="true">Anglais</h3>
 										<div>
 											Anglais (C1)
 										</div>
 									</article>
 									<article id="espagnol" class="langue">
-										<h3 class="invisible">Espagnol</h3>
+										<h3 class="invisible" aria-hidden="true">Espagnol</h3>
 										<div>
 											Espagnol (B1)
 										</div>
@@ -88,9 +99,9 @@
 								<section id="atouts">
 									<h2><span class="fa fa-trophy"></span> Atouts</h2>
 									<article id="atout1" class="atout">
-										<h3 class="invisible">Consciencieux, responsable, organisé</h3>
+										<h3 class="invisible" aria-hidden="true">Consciencieux, responsable, organisé</h3>
 										<p>
-											<table>
+											<table role="presentation">
 												<tr>
 													<td><span class="fa fa-caret-right icone-atout-item"></span></td>
 													<td>Consciencieux, responsable, organisé</td>
@@ -99,9 +110,9 @@
 										</p>
 									</article>
 									<article id="atout3" class="atout">
-										<h3 class="invisible">Curieux, force de proposition</h3>
+										<h3 class="invisible" aria-hidden="true">Curieux, force de proposition</h3>
 										<p>
-											<table>
+											<table role="presentation">
 												<tr>
 													<td><span class="fa fa-caret-right icone-atout-item"></span></td>
 													<td>Curieux, force de proposition</td>
@@ -110,9 +121,9 @@
 										</p>
 									</article>
 									<article id="atout2" class="atout">
-										<h3 class="invisible">Autonomie, capacité d'adaptation</h3>
+										<h3 class="invisible" aria-hidden="true">Autonomie, capacité d'adaptation</h3>
 										<p>
-											<table>
+											<table role="presentation">
 												<tr>
 													<td><span class="fa fa-caret-right icone-atout-item"></span></td>
 													<td>Autonomie, capacité d'adaptation</td>
@@ -150,82 +161,87 @@
 							<section id="pretentions">
 								<h2><span class="fa fa-star"></span> Prétentions</h2>
 								<article id="pretention1" class="pretention">
-									<h3 class="invisible">Structure jeune, conviviale et flexible</h3>
+									<h3 class="invisible" aria-hidden="true">Structure jeune, conviviale et flexible</h3>
 									<p>
-										<table>
+										<table role="presentation">
 											<tr>
-												<td><span class="fa fa-caret-right icone-pretention-item"></span></td>
-												<td>Structure jeune, conviviale et flexible</td>
+												<td><span class="fa fa-caret-right icone-pretention-item" aria-hidden="true"></span></td>
+												<td aria-label="Prétention">Structure jeune, conviviale, flexible et dynamique</td>
 											</tr>
 										</table>
 									</p>
 								</article>
 								<article id="pretention2" class="pretention">
-									<h3 class="invisible">Excellence technique</h3>
+									<h3 class="invisible" aria-hidden="true">Excellence technique</h3>
 									<p>
-										<table>
+										<table role="presentation">
 											<tr>
 												<td><span class="fa fa-caret-right icone-pretention-item"></span></td>
-												<td>Excellence technique</td>
+												<td aria-label="Prétention">Excellence technique</td>
 											</tr>
 										</table>
 									</p>
 								</article>
 								<article id="pretention3" class="pretention">
-									<h3 class="invisible">Télétravail partiel</h3>
+									<h3 class="invisible" aria-hidden="true">Télétravail partiel</h3>
 									<p>
-										<table>
+										<table role="presentation">
 											<tr>
 												<td><span class="fa fa-caret-right icone-pretention-item"></span></td>
-												<td>Télétravail partiel</td>
+												<td aria-label="Prétention">Télétravail partiel</td>
 											</tr>
 										</table>
 									</p>
 								</article>
-								<article id="pretention4" class="pretention">
-									<h3 class="invisible">58-62k€ fixe + package</h3>
+								<!--<article id="pretention4" class="pretention">
+									<h3 class="invisible" aria-hidden="true">65k€ fixe + package</h3>
 									<p>
-										<table>
+										<table role="presentation">
 											<tr>
 												<td><span class="fa fa-caret-right icone-pretention-item"></span></td>
-												<td>58-62k€ fixe + package</td>
+												<td>65k€ fixe + package</td>
 											</tr>
 										</table>
 									</p>
-								</article>
+								</article>-->
 							</section>
 						</div>
 					</div>
 					
-					<div id="page" class="col-md-8 col-sm-8 col-eq-height">
+					<div id="page" class="col-md-8 col-sm-8 col-eq-height" aria-label="Parcours">
 						<div class="container-fluid">
-							<!--<section id="intro">
-								<h2 class="invisible">Résumé</h2>
-								<p><em></em></p>
-							</section>-->
+							<section id="intro">
+								<h2 class="invisible" aria-hidden="true">Résumé</h2>
+								<p>
+									<em>
+										Expérience en développement backend, cloud et automatisation. Attaché à la qualité logicielle, l'amélioration continue et la transmission des connaissances.
+									</em>
+								</p>
+							</section>
 							
 							<section id="experiences">
 								<h2>Expériences professionelles</h2>
 								<article class="experience">
-									<h3 class="invisible">Développeur Fullstack</h3>
+									<h3 class="invisible" aria-hidden="true">Développeur Fullstack</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Octobre 2024 -<br/> Aujourd'hui
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
 											<h3>Développeur Fullstack</h3>
 											<h4><span class="etablissement">Siteflow</span>, Paris</h4>
 											<p>
-												Refacorings techniques de la solution Siteflow.<br/>
-												<em>Java, Springboot, PostgreSQL, Angular</em>
+												Refacorings techniques de la solution <abbr title="Software as as Service">SaaS</abbr> Siteflow (digitalisation des opérations terrain dans l'industrie nucléaire) :
+												moteur de traitements asynchrones, migration MySQL🠒PostgreSQL.<br/>
+												<em>Java, Springboot, Angular, Git, PostgreSQL, Azure</em>
 											</p>
 										</div>
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Ingénieur Sécurité - Développeur IAM</h3>
+									<h3 class="invisible" aria-hidden="true">Ingénieur Sécurité - Développeur IAM</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Juin 2024 -<br/> Septembre 2024
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -239,9 +255,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Enseignant vacataire</h3>
+									<h3 class="invisible" aria-hidden="true">Enseignant vacataire</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Novembre 2019 -<br/> Aujourd'hui
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -255,16 +271,16 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Développeur Backend & DevOps</h3>
+									<h3 class="invisible" aria-hidden="true">Développeur Backend & DevOps</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Septembre 2019 -<br/> Mai 2024
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
 											<h3>Développeur Backend & DevOps</h3>
 											<h4><span class="etablissement">triPica</span>, Paris</h4>
 											<p>
-												Conception, développement et <abbr title="Maintien en Conditions Opérationnelles">MCO</abbr> de fonctionnalités de la solution <abbr title="Business Support System">BSS</abbr> <abbr title="Software as as Service">SaaS</abbr> triPica (infra, backend, tooling).<br/>
+												Conception, développement et <abbr title="Maintien en Conditions Opérationnelles">MCO</abbr> de fonctionnalités de la solution <abbr title="Business Support System">BSS</abbr> <abbr title="Software as as Service">SaaS</abbr> triPica (infrastructure, backend, tooling).<br/>
 												Environnement DevSecOps (ISO27001), <abbr title="Continuous Integration / Continuous Delivery">CI/CD</abbr>, administration système, support & formation interne.<br/>
 												<em>Java, Springboot, microservices, JavaScript, PostgreSQL, <abbr title="Amazon Web Services">AWS</abbr>, Terraform, Linux, Git, Jenkins, Rundeck, Keycloak</em>
 											</p>
@@ -272,9 +288,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Stagiaire ingénieur production IAM</h3>
+									<h3 class="invisible" aria-hidden="true">Stagiaire ingénieur production IAM</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Février 2019 -<br/> Août 2019
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -288,13 +304,13 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Stagiaire développeur informatique</h3>
+									<h3 class="invisible" aria-hidden="true">Stagiaire développeur informatique</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Avril 2018 -<br/> Août 2018
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
-											<h3>Stagiaire développeur informatique</h3>
+											<h3>Stagiaire Développeur</h3>
 											<h4><span class="etablissement">EDF</span>, Centrale nucléaire de St-Laurent-des-Eaux</h4>
 											<p>
 												Développement d'un outil de pilotage fournissant des indicateurs sur l'évolution des opérations de maintenance et la réactivité des équipes.<br/>
@@ -304,9 +320,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Employé centralisation caisses</h3>
+									<h3 class="invisible" aria-hidden="true">Employé centralisation caisses</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Juin 2017 -<br/> Août 2017
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -319,9 +335,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Stagiaire Agent Général d'Assurances</h3>
+									<h3 class="invisible" aria-hidden="true">Stagiaire Agent Général d'Assurances</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Janvier 2017
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -334,9 +350,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Assistant à domicile</h3>
+									<h3 class="invisible" aria-hidden="true">Assistant à domicile</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Juillet 2016 -<wbr> Août 2016
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -349,9 +365,9 @@
 									</div>
 								</article>
 								<article class="experience">
-									<h3 class="invisible">Stagiaire Administrateur Systèmes</h3>
+									<h3 class="invisible" aria-hidden="true">Stagiaire Administrateur Systèmes</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Janvier 2015
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -370,9 +386,9 @@
 							<section id="formations">
 								<h2>Diplômes et formations</h2>
 								<article class="formation">
-									<h3 class="invisible">Diplôme d'Ingénieur</h3>
+									<h3 class="invisible" aria-hidden="true">Diplôme d'Ingénieur</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Septembre 2014 -<br/> Septembre 2019
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -387,9 +403,9 @@
 									</div>
 								</article>
 								<article class="formation">
-									<h3 class="invisible">Semestre d'études à l'étranger</h3>
+									<h3 class="invisible" aria-hidden="true">Semestre d'études à l'étranger</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Septembre 2016 -<br/> Décembre 2016
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -402,9 +418,9 @@
 									</div>
 								</article>
 								<article class="formation">
-									<h3 class="invisible">BAC S - Sciences de l'Ingénieur</h3>
+									<h3 class="invisible" aria-hidden="true">BAC S - Sciences de l'Ingénieur</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Septembre 2011 -<br/> Juin 2014
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -417,9 +433,9 @@
 									</div>
 								</article>
 								<article class="formation">
-									<h3 class="invisible">Brevet des Collèges</h3>
+									<h3 class="invisible" aria-hidden="true">Brevet des Collèges</h3>
 									<div class="row">
-										<div class="col-xs-4 col-sm-3 col-md-2 dates">
+										<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 											Septembre 2008 -<br/> Juin 2011
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -436,9 +452,9 @@
 									<h3>Certifications / <abbr title="Massive Open Online Course">MOOCs</abbr></h3>
 									<details>
 										<article class="formation">
-											<h3 class="invisible">Débuter avec Docker</h3>
+											<h3 class="invisible" aria-hidden="true">Débuter avec Docker</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Juillet 2024
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -451,9 +467,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Développer Votre Première Application avec Angular</h3>
+											<h3 class="invisible" aria-hidden="true">Développer Votre Première Application avec Angular</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Mai 2024
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -466,9 +482,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Java Messaging Service - ActiveMQ</h3>
+											<h3 class="invisible" aria-hidden="true">Java Messaging Service - ActiveMQ</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Mars 2024
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -481,9 +497,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Identity and Access Governance (IAM/IAG/IGA)</h3>
+											<h3 class="invisible" aria-hidden="true">Identity and Access Governance (IAM/IAG/IGA)</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Mars 2024
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -496,9 +512,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Certificate of Language Proficiency</h3>
+											<h3 class="invisible" aria-hidden="true">Certificate of Language Proficiency</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Décembre 2023
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -511,9 +527,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Distributed Systems and Cloud Computing with Java</h3>
+											<h3 class="invisible" aria-hidden="true">Distributed Systems and Cloud Computing with Java</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Novembre 2023
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -526,9 +542,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Clean Code</h3>
+											<h3 class="invisible" aria-hidden="true">Clean Code</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Mars 2023
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -541,9 +557,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">SecNumAcadémie</h3>
+											<h3 class="invisible" aria-hidden="true">SecNumAcadémie</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Mars 2022
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -554,9 +570,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Java Application Performance and Memory Management</h3>
+											<h3 class="invisible" aria-hidden="true">Java Application Performance and Memory Management</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Février 2022
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -569,9 +585,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">LeBonBoss: Comment manager une équipe? Leadership Management</h3>
+											<h3 class="invisible" aria-hidden="true">LeBonBoss: Comment manager une équipe? Leadership Management</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Octobre 2021
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -584,9 +600,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Les patterns de conception des microservices</h3>
+											<h3 class="invisible" aria-hidden="true">Les patterns de conception des microservices</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Octobre 2021
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -599,9 +615,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Sécurité & Santé au Travail</h3>
+											<h3 class="invisible" aria-hidden="true">Sécurité & Santé au Travail</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Décembre 2018
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -612,9 +628,9 @@
 											</div>
 										</article>
 										<article class="formation">
-											<h3 class="invisible">Gestion de Projet Agile</h3>
+											<h3 class="invisible" aria-hidden="true">Gestion de Projet Agile</h3>
 											<div class="row">
-												<div class="col-xs-4 col-sm-3 col-md-2 dates">
+												<div class="col-xs-4 col-sm-3 col-md-2 dates" aria-label="Période">
 													Décembre 2017
 												</div>
 												<div class="col-xs-8 col-sm-9 col-md-10 description">
@@ -635,18 +651,18 @@
 							<section id="competences">
 								<h2>Compétences</h2>
 								<article class="competence">
-									<h3 class="invisible">Développement</h3>
+									<h3 class="invisible" aria-hidden="true">Développement</h3>
 									<div class="row">
 										<div class="col-xs-4 col-sm-3 col-md-2 categorie">
 											<h3>Développement</h3>
 										</div>
 										<div class="col-xs-8 col-sm-9 col-md-10 description">
-											<p>Java, JavaScript, Git, <abbr title="Simple Query Language">SQL</abbr>, <abbr title="Hyper Text Markup Language">HTML</abbr>, cloud computing, microservices, clean code</p>
+											<p>Java, JavaScript, Git, <abbr title="Simple Query Language">SQL</abbr>, <abbr title="Hyper Text Markup Language">HTML</abbr>, cloud computing, microservices, clean code, architecture</p>
 										</div>
 									</div>
 								</article>
 								<article class="competence">
-									<h3 class="invisible">DevOps / SRE</h3>
+									<h3 class="invisible" aria-hidden="true">DevOps / SRE</h3>
 									<div class="row">
 										<div class="col-xs-4 col-sm-3 col-md-2 categorie">
 											<h3>DevOps / <abbr title="Site Reliability Engineer">SRE</abbr></h3>
@@ -657,7 +673,7 @@
 									</div>
 								</article>
 								<article class="competence">
-									<h3 class="invisible">Autres</h3>
+									<h3 class="invisible" aria-hidden="true">Autres</h3>
 									<div class="row">
 										<div class="col-xs-4 col-sm-3 col-md-2 categorie">
 											<h3>Autres</h3>
@@ -677,9 +693,11 @@
 				<div id="marge-droite" class="col-md-1 col-sm-0 col-eq-height"></div>
 			</div>
 				
-			<aside>
+			<aside role="complementary" aria-label="Actions">
 				<div id="btn-export" class="btn-group-justified">
-					<a href="public/pdf/CV_Maxime_Vernusset.pdf" class="btn btn-danger">Télé<wbr>charger la version PDF</a>
+					<a href="public/pdf/CV_Maxime_Vernusset.pdf" class="btn btn-danger" role="button" aria-label="Télécharger la version PDF du CV">
+						Télé<wbr>charger la version PDF
+					</a>
 				</div>
 			</aside>
 		</div>
