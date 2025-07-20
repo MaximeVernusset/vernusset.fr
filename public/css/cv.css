@@ -145,16 +145,13 @@ abbr, abbr[title] {
 			/**
 			 * Section intérêts
 			 ******************************************/
-			#interets h3 {
-				color: var(--gris-clair);
-				font-weight: bold;
-			}
-			.icone-interet-item { padding-right: 1px; }
+			.innteret td { vertical-align: top; }
+			.icone-atout-item { padding-right: 10px; }
 
 		/**
 		 * Section prétentions
 		 ******************************************/
-		 #pretentions article {
+		#pretentions article {
 			margin-left: 11%;
 			margin-right: 9%;
 		}
